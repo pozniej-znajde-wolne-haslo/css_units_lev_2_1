@@ -38,27 +38,27 @@ ul {
 
 .dogs li::before {
     content: "🦮 ";
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .cats li::before {
     content: "🐈  ";
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .parrots li::before {
     content: "🦜  ";
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .snakes li::before {
     content: "🐍  ";
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .lizards li::before {
     content: "🦎  ";
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 
