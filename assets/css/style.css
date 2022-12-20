@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: .5rem;
+}
+p {
+    padding-bottom: .5rem;
+    margin: .5rem;
+    font-size: .8rem;
+}
+
+section {
+    border: 2px solid rgb(84, 73, 73);
+    margin: .5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+li {
+    font-size: .8em;
+    line-height: 1.5em; 
+    list-style: none;
+}
+
+ul {
+    padding-inline-start: 1.1em;
+}
+
+.species {
+    font-size: 1.2rem;
+}
+
+.dogs li::before {
+    content: "🦮 ";
+    font-size: .7rem;
+}
+
+.cats li::before {
+    content: "🐈  ";
+    font-size: .7rem;
+}
+
+.parrots li::before {
+    content: "🦜  ";
+    font-size: .7rem;
+}
+
+.snakes li::before {
+    content: "🐍  ";
+    font-size: .7rem;
+}
+
+.lizards li::before {
+    content: "🦎  ";
+    font-size: .7rem;
+}
+
+
+
+
+
+
+
+
